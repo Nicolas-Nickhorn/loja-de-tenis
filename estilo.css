@@ -1,0 +1,77 @@
+/*Cabeçalho*/
+header{
+    /*background-color: rgb(128, 128, 128, 0.1);*/
+    width: 400px;
+    height: 70px;
+    padding: 2px;
+    margin: 5px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-right: 30px;
+}
+
+/*Corpo*/
+body{
+    background-image: linear-gradient( to right,rgb(228, 129, 15), rgb(241, 48, 97));
+}
+
+h1{
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#img img{
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+}
+
+#img-model{
+    display: flex;
+}
+
+#right-button{
+    float: right;
+    margin-right: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 0px;
+}
+
+button{
+    width: 50px;
+    height: 60px;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+
+/*Rodape*/
