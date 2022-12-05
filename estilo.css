@@ -34,6 +34,19 @@ h1{
     margin: 40px;
 }
 
+#valor{
+    margin-left: 100px;
+    color: black;
+    font-size: 40px;
+}
+
+/*Lado Direito*/
+#text{
+    font-size: clamp(1em, 1em + 0.5vw, 1.5em);
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+
 #right-button{
     float: right;
     margin-right: 20px;
