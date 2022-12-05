@@ -1,23 +1,58 @@
-function red(){
-    document.getElementById("img-tenis").innerHTML = "<img src = 'imagens/tenis_red-removebg-preview.png'>"
-    document.body.style.background = `linear-gradient(to right, rgb(240, 25, 25), rgba(114, 2, 2, 0.70))`
-    document.getElementById("valor").innerHTML = "R$99,90"
-}
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="script.js"></script>
+    <title>Loja de Tenis</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Quem Somos?</a></li>
+        </ul>
+    </header>
 
-function blue(){
-    document.getElementById("img-tenis").innerHTML = "<img src = 'imagens/tenis_blue-removebg-preview.png'>"
-    document.body.style.background = `linear-gradient(to right, rgb(50, 20, 130), rgba(25, 5, 100, 0.10))`
-    document.getElementById("valor").innerHTML = "R$89,90"
-}
+    <div>
+        <h1>Escolha seu Calçado</h1>
 
-function green(){
-    document.getElementById("img-tenis").innerHTML = "<img src = 'imagens/tenis_green2-removebg-preview.png'>"
-    document.body.style.background = `linear-gradient(to right, rgba(70, 240, 100, 0.50), rgb(5, 210, 40))`
-    document.getElementById("valor").innerHTML = "R$129,90"
-}
+        <div id="text">
+            Escolha uma das cores apresentadas ao lado <br>e veja alguns de nossos modelos em promoção.<p>
+        </div>
 
-function yellow(){
-    document.getElementById("img-tenis").innerHTML = "<img src = 'imagens/tenis_yellow2-removebg-preview.png'>"
-    document.body.style.background = `linear-gradient(to right, rgb(255, 255, 0), rgb(40, 5, 120))`
-    document.getElementById("valor").innerHTML = "R$109,90"
-}
+        <div id="right-button">
+            <p><h2>Tabela de Cores</h2>
+            <button name="red" id="red" onclick="red()"></button>
+            <button name="blue" id="blue" onclick="blue()"></button><br>
+            <button name="green" id="green" onclick="green()"></button>
+            <button name="yellow" id="yellow"onclick="yellow()"></button>
+        </div>
+
+        <div id="img">
+                
+            <div id="img-tenis">
+                
+            </div>
+
+        </div>
+
+        <div id="valor">
+
+        </div>
+
+    </div>
+
+    <div id="back-img">
+        
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
